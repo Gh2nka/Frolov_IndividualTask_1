@@ -31,10 +31,7 @@ public class Segment implements Figure {
     }
     public void draw(Graphics g) {
     	this.color = new Color(0,0,150);
-    	g.setColor(this.color);
-    	g.fillOval(395+px, 295-py, 10, 10);  
-    	g.fillOval(395+qx, 295-qy, 10, 10);
-    	g.setColor(new Color(255,0,0));
+    	g.setColor(this.color);    	
     	g.drawLine(400+px, 300-py, 400+qx, 300-qy);
     	g.setColor(new Color(0,0,0));
     	g.drawLine(0, 300, 800, 300);

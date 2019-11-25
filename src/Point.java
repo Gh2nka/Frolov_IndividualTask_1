@@ -25,10 +25,8 @@ public class Point implements Figure {
         else return this;
     }        
     public void draw(Graphics g) {    
-    	this.color = new Color(0,0,150);
+    	this.color = new Color(0,0,0);    	    	   	   
     	g.setColor(this.color);
-    	g.fillOval(395+x, 295-y, 10, 10);      	    	   
-    	g.setColor(new Color(0,0,0));
     	g.drawLine(0, 300, 800, 300);
     	g.drawLine(400, 0, 400, 600);    
     }

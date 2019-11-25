@@ -1,4 +1,3 @@
-//Ð�ÐµÐ¿Ñ€ÐµÑ€Ñ‹Ð²Ð½Ð°Ñ� Ñ€ÐµÐ°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ñ� Ð´ÐµÐºÐ°
 public class Deq {
 
     private final static int DEFSIZE = 16;
